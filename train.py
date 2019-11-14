@@ -1,5 +1,6 @@
 import os
 # os.environ["CUDA_VISIBLE_DEVICES"] = "0, 1"
+"摘自https://zhuanlan.zhihu.com/p/82737301"
 import pandas as pd
 import numpy as np
 from tqdm import tqdm
