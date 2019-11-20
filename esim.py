@@ -143,7 +143,7 @@ def get_model():
     model = Model([T1, T2], output)
     model.compile(
         loss='categorical_crossentropy',
-        optimizer=Adam(1e-5),  # 用足够小的学习率
+        optimizer=Adam(1e-3),  # 用足够小的学习率
         metrics=['accuracy']
     )
     model.summary()
