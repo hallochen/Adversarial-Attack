@@ -14,6 +14,7 @@ from keras.layers import *
 from keras.models import Model
 import keras.backend as K
 from keras.callbacks import Callback
+from keras.activations import softmax
 learning_rate = 5e-5
 min_learning_rate = 1e-5
 
